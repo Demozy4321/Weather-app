@@ -1,30 +1,3 @@
-// 1st step to get longitute n latitude
-
-// window.addEventListener('load',function(){
-//   let long;
-//   let lat;
-//
-//   if(navigator.geolocation){
-//     navigator.geolocation.getCurrentPosition(position => {
-//       long = position.coords.longitude;
-//       lat = position.coords.latitude;
-//       alert(long + " " + lat);
-//       const api =`api.openweathermap.org/data/2.5/weather?lat={lat}&lon={long}&appid={859a4de9a0396d73b5faffb424b17ec3
-// }`;
-// fetch(api)
-//   .then(response =>{
-//     return response.json();
-//   })
-//   .then(data =>{
-//     console.log(data);
-//   })
-//     })
-//   }else{
-//     alert("It's not Working..!")
-//   }
-//
-// });
-
 const api = {
   key: "859a4de9a0396d73b5faffb424b17ec3",
   base: "https://api.openweathermap.org/data/2.5/"
